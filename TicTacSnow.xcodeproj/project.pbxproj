@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC7ECFE718B87DFD00474C76 /* Cartoon Timpani.caf in Resources */ = {isa = PBXBuildFile; fileRef = AC7ECFE618B87DFD00474C76 /* Cartoon Timpani.caf */; };
+		AC7ECFE918B87E7600474C76 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7ECFE818B87E7600474C76 /* AudioToolbox.framework */; };
+		AC7ECFEB18B87F7800474C76 /* Kids Cheering.caf in Resources */ = {isa = PBXBuildFile; fileRef = AC7ECFEA18B87F7800474C76 /* Kids Cheering.caf */; };
+		AC7ECFED18B8814800474C76 /* Computer Data 01.caf in Resources */ = {isa = PBXBuildFile; fileRef = AC7ECFEC18B8814800474C76 /* Computer Data 01.caf */; };
+		AC7ECFEF18BBCA6E00474C76 /* Tink.caf in Resources */ = {isa = PBXBuildFile; fileRef = AC7ECFEE18BBCA6E00474C76 /* Tink.caf */; };
 		ACE1B41C18B7231D0060C3F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE1B41B18B7231D0060C3F4 /* Foundation.framework */; };
 		ACE1B41E18B7231D0060C3F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE1B41D18B7231D0060C3F4 /* CoreGraphics.framework */; };
 		ACE1B42018B7231D0060C3F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE1B41F18B7231D0060C3F4 /* UIKit.framework */; };
@@ -21,6 +26,7 @@
 		ACE1B43D18B7231D0060C3F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE1B41F18B7231D0060C3F4 /* UIKit.framework */; };
 		ACE1B44518B7231D0060C3F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACE1B44318B7231D0060C3F4 /* InfoPlist.strings */; };
 		ACE1B44718B7231D0060C3F4 /* TicTacSnowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE1B44618B7231D0060C3F4 /* TicTacSnowTests.m */; };
+		ACE1B45218B784290060C3F4 /* Marker.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE1B45118B784290060C3F4 /* Marker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC7ECFE618B87DFD00474C76 /* Cartoon Timpani.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cartoon Timpani.caf"; sourceTree = "<group>"; };
+		AC7ECFE818B87E7600474C76 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		AC7ECFEA18B87F7800474C76 /* Kids Cheering.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kids Cheering.caf"; sourceTree = "<group>"; };
+		AC7ECFEC18B8814800474C76 /* Computer Data 01.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Computer Data 01.caf"; sourceTree = "<group>"; };
+		AC7ECFEE18BBCA6E00474C76 /* Tink.caf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Tink.caf; sourceTree = "<group>"; };
 		ACE1B41818B7231D0060C3F4 /* TicTacSnow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacSnow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACE1B41B18B7231D0060C3F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ACE1B41D18B7231D0060C3F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +64,8 @@
 		ACE1B44218B7231D0060C3F4 /* TicTacSnowTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TicTacSnowTests-Info.plist"; sourceTree = "<group>"; };
 		ACE1B44418B7231D0060C3F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ACE1B44618B7231D0060C3F4 /* TicTacSnowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicTacSnowTests.m; sourceTree = "<group>"; };
+		ACE1B45018B784290060C3F4 /* Marker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Marker.h; sourceTree = "<group>"; };
+		ACE1B45118B784290060C3F4 /* Marker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Marker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC7ECFE918B87E7600474C76 /* AudioToolbox.framework in Frameworks */,
 				ACE1B41E18B7231D0060C3F4 /* CoreGraphics.framework in Frameworks */,
 				ACE1B42018B7231D0060C3F4 /* UIKit.framework in Frameworks */,
 				ACE1B41C18B7231D0060C3F4 /* Foundation.framework in Frameworks */,
@@ -101,6 +115,7 @@
 		ACE1B41A18B7231D0060C3F4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AC7ECFE818B87E7600474C76 /* AudioToolbox.framework */,
 				ACE1B41B18B7231D0060C3F4 /* Foundation.framework */,
 				ACE1B41D18B7231D0060C3F4 /* CoreGraphics.framework */,
 				ACE1B41F18B7231D0060C3F4 /* UIKit.framework */,
@@ -115,8 +130,14 @@
 				ACE1B42A18B7231D0060C3F4 /* AppDelegate.h */,
 				ACE1B42B18B7231D0060C3F4 /* AppDelegate.m */,
 				ACE1B42D18B7231D0060C3F4 /* Main.storyboard */,
+				AC7ECFEC18B8814800474C76 /* Computer Data 01.caf */,
+				ACE1B45018B784290060C3F4 /* Marker.h */,
+				ACE1B45118B784290060C3F4 /* Marker.m */,
 				ACE1B43018B7231D0060C3F4 /* ViewController.h */,
 				ACE1B43118B7231D0060C3F4 /* ViewController.m */,
+				AC7ECFEE18BBCA6E00474C76 /* Tink.caf */,
+				AC7ECFEA18B87F7800474C76 /* Kids Cheering.caf */,
+				AC7ECFE618B87DFD00474C76 /* Cartoon Timpani.caf */,
 				ACE1B43318B7231D0060C3F4 /* Images.xcassets */,
 				ACE1B42218B7231D0060C3F4 /* Supporting Files */,
 			);
@@ -196,7 +217,7 @@
 		ACE1B41018B7231D0060C3F4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Spencer Kamchee";
 				TargetAttributes = {
 					ACE1B43818B7231D0060C3F4 = {
@@ -230,7 +251,11 @@
 			files = (
 				ACE1B43418B7231D0060C3F4 /* Images.xcassets in Resources */,
 				ACE1B42618B7231D0060C3F4 /* InfoPlist.strings in Resources */,
+				AC7ECFEF18BBCA6E00474C76 /* Tink.caf in Resources */,
+				AC7ECFED18B8814800474C76 /* Computer Data 01.caf in Resources */,
 				ACE1B42F18B7231D0060C3F4 /* Main.storyboard in Resources */,
+				AC7ECFEB18B87F7800474C76 /* Kids Cheering.caf in Resources */,
+				AC7ECFE718B87DFD00474C76 /* Cartoon Timpani.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACE1B43218B7231D0060C3F4 /* ViewController.m in Sources */,
+				ACE1B45218B784290060C3F4 /* Marker.m in Sources */,
 				ACE1B42C18B7231D0060C3F4 /* AppDelegate.m in Sources */,
 				ACE1B42818B7231D0060C3F4 /* main.m in Sources */,
 			);
@@ -305,7 +331,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -344,7 +369,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -402,7 +426,6 @@
 		ACE1B44E18B7231D0060C3F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TicTacSnow.app/TicTacSnow";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -425,7 +448,6 @@
 		ACE1B44F18B7231D0060C3F4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TicTacSnow.app/TicTacSnow";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -460,6 +482,7 @@
 				ACE1B44C18B7231D0060C3F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACE1B44D18B7231D0060C3F4 /* Build configuration list for PBXNativeTarget "TicTacSnowTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +491,7 @@
 				ACE1B44F18B7231D0060C3F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
